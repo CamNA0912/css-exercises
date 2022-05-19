@@ -23,3 +23,49 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* My Solution*/
+.header  {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+a {
+  color: blue;
+}
+
+
+.left-links a{
+  display: flex;
+  margin-right: 24px;
+}
+
+.right-links a{
+  display: flex;
+  margin-right: 24px;
+}
+
+/*Solution
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+*/
